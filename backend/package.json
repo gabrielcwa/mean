@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "my first mean app",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "pm2 start loader.js --name backend"
+  },
+  "author": "Gabriel C W Arcoverde",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.16",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
